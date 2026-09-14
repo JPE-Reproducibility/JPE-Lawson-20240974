@@ -1,0 +1,560 @@
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Manual_mode_STATA_v1.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/3_STATA_PREPROCESSING_ORGA/01_prepare_training_2483.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/3_STATA_PREPROCESSING_ORGA/02_prepare_national_accounts_deflators.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/3_STATA_PREPROCESSING_ORGA/04_build_policy_parameter_grid.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/5_STATA_FINAL_DATA_CONSTRUCTION/00_build_final_analysis_data.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/5_STATA_FINAL_DATA_CONSTRUCTION/functions/fn_apply_analysis_sample_filters.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/5_STATA_FINAL_DATA_CONSTRUCTION/functions/fn_assemble_annual_firm_panel.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/5_STATA_FINAL_DATA_CONSTRUCTION/functions/fn_compute_calibration_moments.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/5_STATA_FINAL_DATA_CONSTRUCTION/functions/fn_estimate_tfp.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/00_run_regression_analysis.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/01_build_descriptive_tables.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/02_build_figure1_minimum_wage_paths.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/03_build_figure2_labor_cost_distributions.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/04_prepare_table_b1_sample_inputs.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/05_build_table_b1_sample_construction.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/10_run_dd_ols.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/11_run_ddd_ols.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/12_run_dd_iv.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/13_run_ddd_iv.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/functions/fn_apply_common_restrictions.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/functions/fn_estimate_specifications.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/functions/fn_export_regression_tables.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/6_STATA_ANALYSES/functions/fn_run_regression_family.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Tools/00_check_stata_environment.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/00_PREPARE_DIRECTORIES.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/02_STATA_CHECK_ENVIRONMENT.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/11_STATA_PREPROCESSING.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/13_STATA_BUILD_FINAL_ANALYSIS_DATA.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/14_STATA_EMPIRICAL_ANALYSIS.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/15_STATA_TABLE_B1.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Figures A2-A3/Code/Graphs_Kaitz_v1.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Figures A2-A3/Code/Graphs_UNCERTAINTY_Bloom_v1.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Figures A2-A3/Code/Main.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/Figure_6_legFigG1.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/Figure_7.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/Figure_8.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/Figure_F2.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/Figure_G1.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/Figure_I1.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/Main.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/R Simulation Figures/Code/TableH2.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/AlphaFigures/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/CostMinQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/CostMinimizationMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/CostMinimizationMW_A.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/CostMinimizationMW_c.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/CostMinimizationMW_h.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/CostMinimizationMW_lambda.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/CostMinimizationMW_mw.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/CR-HFigures/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/Decomposition/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/A_Large/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/C_Small/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/H_Small/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Lambda_Large/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output32/Scenarios/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/A_Large/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/C_Small/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/H_Small/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Lambda_Large/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output64/Scenarios/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/A_Large/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/C_Small/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/H_Small/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Lambda_Large/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Baseline Specification/Code/MWResults/MWResults_Technology_Output96/Scenarios/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (i) - 1+ Only/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iii) - SelfEmployment, 1+ Only/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (iv) - SelfEmployment, GMR6 & 1+/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (v) - Hours Calibration/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vi) - Kaitz Calibration/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (vii) - Mean Ratio Calibration/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MW_Tar_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/Alpha1_Solve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ProfitMaxQMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ProfitMaxQZ.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ProfitMaxQZMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ProfitMax_Layer0.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/QZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ZNSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unemployment Specification/Code/MWResults/ZSolveMW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/Cal_Iter.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/Calibration.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/Main.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/MWResults/FreeEntrySolve_MW.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/MWResults/PMMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/MWResults/ProfitMaximizationMW_GE.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/Unproductive Managers Specification/Code/MWResults/ZSolve.m
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Manual_mode_SAS_v1.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/1_SAS_DADS/01_build_rtt_gmr_assignments.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/1_SAS_DADS/02_extract_dads_jobs.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/1_SAS_DADS/03_build_minimum_wage_simulation_inputs.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/1_SAS_DADS/MACROS/macros_dads_job_extraction.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/2_SAS_OTHER/01_extract_ficus_accounts.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/2_SAS_OTHER/02_extract_training_2483.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/2_SAS_OTHER/03_extract_dads_1993_calibration.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/2_SAS_OTHER/04_extract_industry_nomenclatures.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_build_calibration_moments.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_build_firm_history.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_build_firm_info_by_year.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_build_firm_organization_data.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_build_firm_rtt_history.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_build_simulated_firm_info.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_build_worker_level_data.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/4_SAS_ORGANIZATIONS/MACROS/macro_compute_labor_costs.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Programs/7_SAS_APPENDIX_G/01_compute_table_g1_zero_layer_moment.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Tools/00_check_sas_environment.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/Tools/00_resolve_casd_paths.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/01_SAS_CHECK_ENVIRONMENT.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/03_SAS_BUILD_RTT_GMR_ASSIGNMENTS.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/04_SAS_EXTRACT_DADS_JOBS.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/05_SAS_BUILD_MINIMUM_WAGE_INPUTS.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/06_SAS_EXTRACT_FICUS_ACCOUNTS.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/07_SAS_EXTRACT_TRAINING_2483.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/08_SAS_EXTRACT_DADS_1993_CALIBRATION.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/09_SAS_EXTRACT_INDUSTRY_NOMENCLATURES.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/10_SAS_TABLE_G1_ZERO_LAYER_MOMENT.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12A_SAS_BUILD_ORGANIZATION_BASE.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_1996.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_1997.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_1998.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_1999.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2000.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2001.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2002.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2003.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2004.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2005.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2006.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2007.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_2008.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12B_SAS_BUILD_ORGANIZATION_YEAR_ENGINE.sas
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/code/manual/12A_SAS_BUILD_ORGANIZATION/12C_SAS_BUILD_ORGANIZATION_FINALIZE.sas

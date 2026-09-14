@@ -1,0 +1,384 @@
+             ReadMe File for Matlab and R Files for “The Minimum Wage in
+
+               Firms Organizations: Productivity Implications”,Journal of
+
+                                       Political Economy
+
+
+                           Nicholas Lawson, Claire Lelarge, and Grigorios Spanos
+
+                                          September 11, 2026
+
+
+           Overview
+
+           The code in this replication package contains 4 folders of Matlab code which calibrate and simulate the
+           models used in the paper, and 2 folders of R code which generates a number of the ffgures in the paper.
+           These code ffles generate the results found in 8 tables and 12 ffgures in the paper, and the replicator should
+           expect it to take about 36 hours to run all of the Matlab code if run in parallel, and less than a minute to
+           run the R code.
+
+
+           Data Availability and Provenance Statements
+
+           5 of the 6 folders of code do not directly use any data (they do use results from the empirical analysis
+           described in the Stata/SAS section of the replication package). The “R Figures A2-A3” folder uses data that
+           were publicly accessible online. No registration, membership, application procedure or monetary payment
+           was required to obtain the authors’ source ffles.
+           Figure A2 – Economic Policy Uncertainty
+           Data source: Baker, Bloom and Davis (2016) for all countries except Spain; Ghirelli, Perez and Urtasun
+           (2019) for Spain. The data are maintained at Economic Policy Uncertainty (2025).
+           Source landing page: https://www.policyuncertainty.com/all_country_data.html
+           Direct workbook URL: https://www.policyuncertainty.com/media/All_Country_Data.xlsx
+           Authors’ download date recorded in the supplied material: 25 March 2025.
+           The source page states that the data are licensed under “Creative Commons Attribution 4.0 International (CC
+           BY 4.0)”. The package contains the original XLSX ffle downloaded from the source page, with a “Read_me”
+           sheet added with the URL and data of download; and the package also contains a non-proprietary CSV export
+           of the numeric observations from the workbook’s “EPU” sheet: “Data/epu_all_country_2025-03-25.csv”.
+           “Code/Graphs_UNCERTAINTY_Bloom_v1.R” selects the six country series used in Figure A2 from the
+           CSV ffle.
+           Figure A3 – Kaitz Indices
+           Data source: Bozio and Wasmer (2024).
+           Source landing page: https://www.strategie-plan.gouv.fr/publications/mission-bozio-wasmer-politiques-
+           dexonerations-de-cotisations-sociales-une-inffexion
+           Direct Chapter 1 workbook URL: https://www.strategie-plan.gouv.fr/files/files/Publications/Excel/ffgures
+           _chapitre_1.xlsx
+           Data of last update of the data: 3 October 2024.
+           Authors’ access date recorded in the supplied program: 29 August 2026.
+
+
+
+                                                  1           The source page states that the data are licensed under “Etalab-2.0”, which permits reuse and redistribution
+           as long as the source and date of last update are provided. The supplied R program uses sheet “Gr10 Kaitz
+           par an et pays”, ranges A6:H25 (labor costs) and J6:Q25 (income). The package contains the original XLSX
+           ffle downloaded from the source page, as well as the relevant worksheet cells A6:Q25 as a non-proprietary CSV,
+           “Data/kaitz_gr10_source_matrix.csv”; “Code/Graphs_Kaitz_v1.R” performs the exact range selection and
+           reshaping. The source worksheet identiffes the underlying source as “OCDE, modèle Tax-Ben”.
+           Data Rights
+           The authors have legitimate access to and permission to use the data used for Figures A2 and A3.
+              •EPU: redistribution is documented by the source’s CC BY 4.0 license.
+              •Kaitz extract: redistribution is documented by the source’s Etalab-2.0 license
+              •The new replication code/documentation is licensed under “LICENSE.txt”; third-party data retain
+                their own terms.
+
+
+           Computational Requirements
+
+           Software Requirements
+              •Matlab (code was last run with Matlab release R2024b)
+              •R (code was last run with R version 4.6.1)
+           All Matlab code uses base Matlab plus the Global Optimization Toolbox; all R code uses base R, with no
+           external packages used.
+
+           Controlled Randomness
+              □Random seed is set at line _____ of program ______
+              ✓□No Pseudo random generator is used in the analysis described here.
+
+           Memory, Runtime, Storage Requirements
+           Summary Approximate time needed to reproduce the analyses on a standard 2024 desktop machine:
+              □<10 minutes
+              □10-60 minutes
+              □1-2 hours
+              □2-8 hours
+              □8-24 hours
+              ✓□1-3 days
+              □3-14 days
+              □> 14 days
+           Approximate storage space needed:
+              ✓□< 25 MBytes
+              □25 MB - 250 MB
+              □250 MB - 2 GB
+              □2 GB - 25 GB
+              □25 GB - 250 GB
+              □> 250 GB
+              □Not feasible to run on a desktop machine, as described below.
+
+
+                                                  2           Details The code was last run on a20-core Intel(R) Core(TM) i7-14700K (3.40 GHz) with
+           Windows 11 and 32 GB of RAM. Computation took about36 hours.
+
+
+           Description of Programs/Code
+
+              •The replication archive contains 4 Matlab folders, 3 of which contain the code needed to generate
+                the results for 3 different speciffcations of the model that are presented in the paper; the “Sensitivity
+                Speciffcations” folder is further subdivided into 7 sub-folders, each of which contains the code needed
+                to generate the results for one of the 7 sensitivity analyses considered in Appendix G of the paper.
+                These 10 folders – the 3 folders entitled “Baseline Speciffcation”, “Unemployment Speciffcation”, and
+               “Unproductive Managers Speciffcation”, and the 7 sub-folders in the “Sensitivity Speciffcations” folder –
+                will be referred to as “analysis folders” in what follows.
+                  –Each analysis folder is divided into 3 sub-folders: “Code” contains the Matlab code, “Data” is
+                   initially empty but will eventually contain the Matlab .mat ffles that are created by the Matlab
+                   code and used in some code ffles, and “Output” is initially empty but will eventually contain the
+                   ffnal output ffles that are used in the paper. In each analysis folder, there is one master ffle of
+                   Matlab code, entitled “Main.m”, which executes all of the code in that analysis folder. If run
+                   on its own, Main.m should take between 12 and 30 hours in each analysis folder (except for the
+                   “Unproductive Managers Speciffcation” folder, which only takes about 10 minutes); if the Main.m
+                   in all 10 analysis folders are executed simultaneously, the code should take about 36 hours to run.
+                   In each Main.m ffle, lines 5-7 deffne the paths for the Code, Data, and Output folders, with line 3
+                   deffning the base path on the computer we used; replicators will need to replace line 3 in each
+                   Main.m ffle with the appropriate path on their own computer.
+              •The replication archive also contains 2 R folders, the ffrst of which is entitled “R Simulation Figures”,
+                which is divided into 2 sub-folders: “Code” contains the R scripts, and “Output” is initially empty
+                but will eventually contain the PDF ffles for a number of ffgures in the paper. In the Code sub-folder,
+               “Main.R” is the master script which calls all of the other scripts, and should take less than a minute to
+                run; each of the other scripts loads the R packages that are required in that script. Line 2 of Main.R
+                deffnes the main path for the replication folder, and replicators will need to replace this line with the
+                appropriate path on their own computer.
+              •The second R folder is entitled “R Figures A2-A3”, which is divided into 3 sub-folders: “Code” contains
+                the R scripts, “Data” contains the 2 original XLSX data ffles and the 2 analysis CSV data ffles (as
+                well as a CSV ffle detailing the third-party rights to the data), and “Output” is initially empty but
+                will eventually contain the PDF ffles for Figures A2 and A3 in the appendix of the paper. In the Code
+                sub-folder, “Main.R” is the master script which calls all of the other scripts, and should take less than
+                a minute to run; each of the other scripts loads the R packages that are required in that script. Line 2
+                of Main.R deffnes the main path for the replication folder, and replicators will need to replace this line
+                with the appropriate path on their own computer.
+
+
+           Instructions to Replicators
+
+              •In the “Baseline Speciffcation” folder, run the “Main.m” ffle in the “Code” sub-folder, updating the
+                path on line 3 to the appropriate folder on your computer. This will run all of the code for the baseline
+                speciffcation of the model, and generate PDFs and CSV ffles in the “Output” sub-folder for Figures 3,
+                4, 5, 6, 7, 8, F1, and F2, as well as Tables 5, 6, F1, and F2. For Figures 6, 7, 8, and F2, the CSV ffles
+                are used to produce the ffgures using R in the second-last step below.
+              •In the “Sensitivity Speciffcations” folder, each sub-folder represents a different sensitivity speciffcation,
+                and thus a different column of Table G1 and a different panel of Figure G1; all sub-folders are labelled
+                with the column number as well as a description of the speciffcation.
+                  –In each sub-folder, run the “Main.m” ffle in the “Code” sub-sub-folder, updating the path on line
+                   3 to the appropriate folder on your computer. This will run all of the code for the given sensitivity
+                   speciffcation of the model, and generate the CSV ffle for the given column of Table G1 in the
+                   “Output” sub-folder, as well as the CSV ffle which is used to produce the given panel of Figure G1
+
+
+                                                  3                   using R in the second-last step below.
+              •In the “Unemployment Speciffcation” folder, run the “Main.m” ffle in the “Code” sub-folder, updating
+                the path on line 3 to the appropriate folder on your computer. This will run all of the code for the
+                unemployment speciffcation of the model, and generate the CSV ffles for Table H1 and the upper panel
+                of Table H2 in the “Output” sub-folder, as well as the CSV ffle which is used to produce the ffgure in
+                the lower panel of Table H2 using R in the second-last step below.
+              •In the “Unproductive Managers Speciffcation” folder, run the “Main.m” ffle in the “Code” sub-folder,
+                updating the path on line 3 to the appropriate folder on your computer. This will run all of the code
+                for the unproductive managers speciffcation of the model, and generate the CSV ffle for Table I1 in the
+               “Output” sub-folder, as well as the CSV ffle which is used to produce Figure I1 using R script in the
+                second-last step below.
+              •In the “R Simulation Figures” folder, run the “Main.R” ffle in the “Code” sub-folder, updating the
+                working directory on line 2 to the appropriate folder on your computer. This will run all of the code
+                that uses the CSV ffles produced above to generate PDF ffles for Figures 6, 7, 8, F2, G1, and I1, and
+                the ffgure in the lower panel of Table H2.
+              •In the “R Figures A2-A3” folder, run the “Main.R” ffle in the “Code” sub-folder, updating the working
+                directory on line 2 to the appropriate folder on your computer. This will run all of the code that uses
+                the data in the “Data” sub-folder to generate PDF ffles for Figures A2 and A3.
+
+
+           List of Tables and Programs
+
+           The provided code reproduces:
+              □All numbers provided in text in the paper
+              □All tables and ffgures in the paper
+              ✓□Selected tables and ffgures in the paper, as explained and justiffed below.
+
+           Table or                                                   Line
+           Figure # Program                                          Number Note
+           Table 5 Baseline Speciffcation/Code/Calibration.m 427-429
+           Table 6 Baseline Speciffcation/Code/MWResults/                  496-509
+                     ProfftMaximizationMW_GE.m
+           Table F1 Baseline Speciffcation/Code/MWResults/                  511-526
+                     ProfftMaximizationMW_GE.m
+           Table F2 Baseline Speciffcation/Code/MWResults/                  528-542
+                     ProfftMaximizationMW_GE.m
+           Table G1 Sensitivity Speciffcations/Sensitivity (i) - 1+                421-425  Column (i)
+                     Only/Code/Calibration.m
+                     Sensitivity Speciffcations/Sensitivity (ii) - GM6 &            421-425  Column (ii)
+                    1+/Code/Calibration.m
+                     Sensitivity Speciffcations/Sensitivity (iii) - SelfEmployment, 1+  424-428  Column (iii)
+                     Only/Code/Calibration.m
+                     Sensitivity Speciffcations/Sensitivity (iv) - SelfEmployment,     424-428  Column (iv)
+                     GMR6 & 1+/Code/Calibration.m
+                     Sensitivity Speciffcations/Sensitivity (v) - Hours             425-429  Column (v)
+                     Calibration/Code/Calibration.m
+                     Sensitivity Speciffcations/Sensitivity (vi) - Kaitz             422-427  Column (vi)
+                     Calibration/Code/Calibration.m
+                     Sensitivity Speciffcations/Sensitivity (vii) - Mean Ratio        422-427  Column (vii)
+                     Calibration/Code/Calibration.m
+           Table H1 Unemployment Speciffcation/Code/Calibration.m 439-443
+
+
+
+
+
+                                                  4           Table or                                                   Line
+           Figure # Program                                          Number Note
+           Table H2 Unemployment Speciffcation/Code/MWResults/             410-421  Upper panel
+                     ProfftMaximizationMW_GE.m                         383-407  CSV ffle (lower
+                                                                              panel)
+                     R Simulation Figures/Code/TableH2.R                    143-157  PDF ffle (lower
+                                                                              panel)
+           Table I1 Unproductive Managers Speciffcation/Code/Calibration.m 140-143
+            Figure 3 Baseline Speciffcation/Code/CR-HFigures/                 121-131  Panel A
+                     CostMinimizationMW.m                              108-118  Panel B
+            Figure 4 Baseline Speciffcation/Code/CR-HFigures/                 91-101   Panel A
+                     CostMinimizationMW_h.m
+                     Baseline Speciffcation/Code/CR-HFigures/                 92-102   Panel B
+                     CostMinimizationMW_c.m
+                     Baseline Speciffcation/Code/CR-HFigures/                 91-101   Panel C
+                     CostMinimizationMW_A.m
+                     Baseline Speciffcation/Code/CR-HFigures/                 91-101   Panel D
+                     CostMinimizationMW_lambda.m
+            Figure 5 Baseline Speciffcation/Code/CR-HFigures/                 90-100   Panel A
+                     CostMinimizationMW_mw.m                          103-113  Panel B
+            Figure 6 Baseline Speciffcation/Code/MWResults/                  447-475  CSV ffle
+                     ProfftMaximizationMW_GE.m
+                     R Simulation Figures/Code/Figure_6_legFigG1.R           135-140  PDF ffle (legend)
+                                                                     151-156  PDF ffle (ffgure)
+            Figure 7 Baseline Speciffcation/Code/Decomposition/                133-146  CSV ffle
+                     ProfftMaximizationMW_GE.m
+                     R Simulation Figures/Code/Figure_7.R                   88-108   PDF ffles
+            Figure 8 Baseline Speciffcation/Code/MWResults/                  478-487  CSV ffle
+                     ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output32/H_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        328-337
+                    Technology_Output32/C_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output32/Lambda_Large/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output32/A_Large/ProfftMaximizationMW_GE.m
+                     R Simulation Figures/Code/Figure_8.R                   149-203  PDF ffles
+            Figure    R Figures A2-A3/Code/Graphs_UNCERTAINTY_Bloom_v1.R 37 PDF ffle
+           A2
+           Figure    R Figures A2-A3/Code/Graphs_Kaitz_v1.R 49      PDF ffle (Panel
+           A3                                                               A)
+                                                                     86      PDF ffle (Panel
+                                                                              B)
+           Figure F1 Baseline Speciffcation/Code/AlphaFigures/                 123-138  Panel A
+                     ProfftMaximizationMW_GE.m                         140-159  Panel B
+                                                                     161-176  Panel C
+                                                                     178-197  Panel D
+
+
+
+
+
+
+
+
+
+                                                  5           Table or                                                   Line
+           Figure # Program                                          Number Note
+           Figure F2 Baseline Speciffcation/Code/MWResults/                  478-487  CSV ffle (Panel
+                     ProfftMaximizationMW_GE.m                                  A)
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output32/H_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        328-337
+                    Technology_Output32/C_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output32/Lambda_Large/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output32/A_Large/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/                  490     CSV ffle (Panel B)
+                     ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output64/H_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        328-337
+                    Technology_Output64/C_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output64/Lambda_Large/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output64/A_Large/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/                  493     CSV ffle (Panel C)
+                     ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output96/H_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        328-337
+                    Technology_Output96/C_Small/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output96/Lambda_Large/ProfftMaximizationMW_GE.m
+                     Baseline Speciffcation/Code/MWResults/MWResults_        327-336
+                    Technology_Output96/A_Large/ProfftMaximizationMW_GE.m
+                     R Simulation Figures/Code/Figure_F2.R                  111-184  PDF ffles
+           Figure    Sensitivity Speciffcations/Sensitivity (i) - 1+                445-473  CSV ffle (Panel i)
+           G1      Only/Code/MWResults/ProfftMaximizationMW_GE.m
+                     Sensitivity Speciffcations/Sensitivity (ii) - GM6 &            445-473  CSV ffle (Panel ii)
+                    1+/Code/MWResults/ProfftMaximizationMW_GE.m
+                     Sensitivity Speciffcations/Sensitivity (iii) - SelfEmployment, 1+  454-482  CSV ffle (Panel
+                     Only/Code/MWResults/ProfftMaximizationMW_GE.m               iii)
+                     Sensitivity Speciffcations/Sensitivity (iv) - SelfEmployment,     454-482  CSV ffle (Panel
+                     GMR6 & 1+/Code/MWResults/ProfftMaximizationMW_GE.m          iv)
+                     Sensitivity Speciffcations/Sensitivity (v) - Hours             445-473  CSV ffle (Panel v)
+                     Calibration/Code/MWResults/ProfftMaximizationMW_GE.m
+                     Sensitivity Speciffcations/Sensitivity (vi) - Kaitz             445-473  CSV ffle (Panel
+                     Calibration/Code/MWResults/ProfftMaximizationMW_GE.m           vi)
+                     Sensitivity Speciffcations/Sensitivity (vii) - Mean Ratio        445-473  CSV ffle (Panel
+                     Calibration/Code/MWResults/ProfftMaximizationMW_GE.m           vii)
+                     R Simulation Figures/Code/Figure_G1.R                  114-147  PDF ffles (ffgures)
+                     R Simulation Figures/Code/Figure_6_legFigG1.R           142-147  PDF ffles (legend)
+
+
+
+
+
+
+
+                                                  6           Table or                                                   Line
+           Figure # Program                                          Number Note
+           Figure I1 Unproductive Managers Speciffcation/Code/MWResults/      96-109   CSV ffle (Panel
+                     ProfftMaximizationMW_GE.m                                  A)
+                     Baseline Speciffcation/Code/MWResults/                  447-475  CSV ffle (Panel B)
+                     ProfftMaximizationMW_GE.m
+                     R Simulation Figures/Code/Figure_I1.R                  152-183  PDF ffles
+
+
+
+           References
+
+           Baker, Scott R., Nicholas Bloom, and Steven J. Davis (2016): “Measuring Economic Policy Uncertainty,”
+           Quarterly Journal of Economics131(4): 1593–1636.
+           Bozio, Antoine, and Etienne Wasmer (2024): “Les politiques d’exonerations de cotisations sociales : une
+           inffexion necessaire,” Mission Bozio-Wasmer, France Strategie/Haut-commissariat a la strategie et au plan.
+           Data portal: https://www.strategie-plan.gouv.fr/publications/mission-bozio-wasmer-politiques-
+           dexonerations-de-cotisations-sociales-une-inffexion.
+           Economic Policy Uncertainty (2025): “Monthly EPU Indices for 22 Countries,” https://www.policyuncertai
+           nty.com/all_country_data.html, viewed on 25 March 2025.
+           Ghirelli, Corinna, Javier J. Perez, and Alberto Urtasun (2019): “A New Economic Policy Uncertainty Index
+           for Spain,” Banco de España Working Paper 1906.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  7

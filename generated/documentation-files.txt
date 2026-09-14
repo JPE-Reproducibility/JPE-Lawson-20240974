@@ -1,0 +1,3 @@
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/MatlabR/ReadMe.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/README__CASD.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20240974-1/replication-package/Replication Files/StataSas_CASD/manuscript/paper.pdf
