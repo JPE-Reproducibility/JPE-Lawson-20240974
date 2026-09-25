@@ -1,6 +1,6 @@
 clear all
 % define base path (this needs to be reset by other users to fit their computer)
-BasePath = 'C:\Users\nicho\Documents\Research\MWO\Paper Drafts\Final JPE Files\Replication Files\MatlabR\Sensitivity Specifications\Sensitivity (ii) - GM6 & 1+';
+BasePath = '/files/JPE-Lawson-20240974/replication-package/Replication Files/MatlabR/Sensitivity Specifications/Sensitivity (ii) - GM6 & 1+';
 % define paths for code, data (.mat files) and output
 CodePath = fullfile(BasePath, 'Code');
 DataPath = fullfile(BasePath, 'Data');
